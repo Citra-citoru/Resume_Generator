@@ -1,5 +1,5 @@
 # My Resume Generator
-Simple app resume generator with purpose to automatically create my own resume generator. 
+Simple app with purpose to automatically create my own resume. 
 
 Step by Step:
 1. Fill the HTML form (not implemented yet).
