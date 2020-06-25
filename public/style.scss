@@ -1,0 +1,86 @@
+
+$orange:#f39c11;
+.boxShadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.orange{
+  color: $orange;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  border:1px solid $orange;
+  border-radius:50%;
+  background-color:#bdbdbd;
+}
+#work-list{
+  margin-left: 5%;
+}
+#circle{
+  height:28.5em;
+  padding-top:2.5em;
+}
+.alert{
+  height:50px;
+}
+.sm-icon {
+  line-height: 1em;
+}
+.d-sm-flex {
+  padding: 0;
+  margin: 0;
+}
+
+#right{
+  padding:1.5vh 0;
+  
+}
+.job-title{
+  font-size:18px;
+  font-weight:bold;
+}
+.job{
+  padding-left:1vw;
+}
+.circle {
+  position: relative;
+  border-radius: 100%;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin-top: 50px;
+  color:$orange;
+  background-color: $orange;
+  z-index: 2;
+}
+.circle:first-child {
+  margin-top: 0;
+}
+.circle:before {
+  position: absolute;
+  border: 1px solid #999;
+  width: 0;
+  height: 50px;
+  display: block;
+  content: '';
+  left: 50%;
+  z-index: 1;
+  top: -54px;
+  margin-left: -1px;
+}
+.circle:first-child:before {
+  display: none;
+}
+.vl {
+  border-left: 3px solid $orange;
+  margin-left: 1.7vw;
+}
+#vl-1{
+  height:162px;
+}
+#vl-2{
+  height:131px;
+}
+#vl-3{
+  height:73px;
+}
